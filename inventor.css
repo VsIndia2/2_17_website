@@ -1,5 +1,5 @@
 body{
-  background-color: #F4F3EE;
+  background-color: black;
   color: #463F3A;
   font-family: "Cookie", Arial, sans-serif;
   font-size: 1.6em;
@@ -9,18 +9,29 @@ body{
 #wrapper{
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 90%;
+}
+main {
+  background-color: #F4F3EE;
+  border: solid .01px black;  
 }
 header{
   background-color: #BCB8B1;
   text-align: center;
+  border: solid 0.1px black;
 }
 h1 { 
   line-height: 200%;
 }
+h3 {
+  line-height: 0%;
+}
 nav { 
   font-weight: bold;
   text-align: center;
+  background-color: #dcdcdc;
+  border-top: solid .01px black;
+  border-bottom: solid .01px black;  
 }
 nav a { 
   text-decoration: none ;
