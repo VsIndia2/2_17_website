@@ -43,3 +43,7 @@ font-size: .60em;
 font-style: italic;
   text-algin: center;
 }
+
+img {
+  padding: 5px;
+}
